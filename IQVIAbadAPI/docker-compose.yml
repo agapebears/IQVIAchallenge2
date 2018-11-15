@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  iqviabadapimvcapp:
+    image: ${DOCKER_REGISTRY}iqviabadapimvcapp
+    build:
+      context: .\IQVIAbadAPIMVCApp
+      dockerfile: Dockerfile

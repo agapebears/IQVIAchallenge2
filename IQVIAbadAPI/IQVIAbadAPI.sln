@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQVIAbadAPIMVCApp", "IQVIAbadAPIMVCApp\IQVIAbadAPIMVCApp.csproj", "{354CD4E6-F318-4369-80A2-0B6B16B44A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQVIAbadAPIMVCApp.Tests", "IQVIAbadAPIMVCApp.Tests\IQVIAbadAPIMVCApp.Tests.csproj", "{DBEC8FCE-3244-4E0F-B932-6E77A6626576}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{07EEA344-864E-4410-8931-1073E16283EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{354CD4E6-F318-4369-80A2-0B6B16B44A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354CD4E6-F318-4369-80A2-0B6B16B44A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354CD4E6-F318-4369-80A2-0B6B16B44A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354CD4E6-F318-4369-80A2-0B6B16B44A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEC8FCE-3244-4E0F-B932-6E77A6626576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEC8FCE-3244-4E0F-B932-6E77A6626576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEC8FCE-3244-4E0F-B932-6E77A6626576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEC8FCE-3244-4E0F-B932-6E77A6626576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07EEA344-864E-4410-8931-1073E16283EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07EEA344-864E-4410-8931-1073E16283EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07EEA344-864E-4410-8931-1073E16283EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07EEA344-864E-4410-8931-1073E16283EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A12AC31-25DD-41E4-9219-7E33D25A3A42}
+	EndGlobalSection
+EndGlobal

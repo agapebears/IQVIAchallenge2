@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "IQVIA - Bad API";
+}
+
+<div class="jumbotron" style="background-color: #00a3e0; color: white;">
+    <h1>IQVIA - Bad API</h1>
+    @*<p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            Click the links to see the results.  All Tweets will be displayed uniquely between 01/01/2016 and 12/31/2017 inclusive.
+        </p>        
+    </div>
+    <div class="col-md-4">
+        <h2>Tweets Not Async</h2>
+        <p>This will use the WebClient object that does not allow for async communication.</p>
+        @*<p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Get Tweets</a></p>*@
+        <p>@Html.ActionLink("Get Tweets", "Tweets", "Tweet", new { area = "" }, new { @class = "btn btn-default" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Tweets Async</h2>
+        <p>This will use the HttpClient object for communication taking advantage of async/await commands.</p>
+        @*<p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Get Tweets</a></p>*@
+        <p>@Html.ActionLink("Get Tweets", "TweetsAsync", "Tweet", new { area = "" }, new { @class = "btn btn-default" })</p>
+    </div>
+</div>
